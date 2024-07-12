@@ -8,31 +8,31 @@
 </head>
 
 <body>
-  <div class="container">
+    <header>
+      <h1> Analizador de texto</h1>
+      <p>Usa esta aplicación y descubre todos los detalles de tu texto como carácteres, palabras, números y más!</p>
+    </header>
+
     <main>
-      <header><h1> Analizador de texto</h1>
-        </header>
-      
-      <textarea id="input" placeholder="Aquí puedes pegar o ingresar el texto que deseas analizar"></textarea>
+      <div>
+      <textarea name="user-input" placeholder="Aquí puedes pegar o ingresar el texto que deseas analizar" rows="4" cols="60"></textarea>
+
+      <button id="reset-button">Limpiar métricas</button>
       </div>
-      <button onclick="analizarTexto()">Analizar texto</button>
-      <button onclick="limpiarMetricas">Limpiar métricas</button>
 
       <ul>
-        <li class="metricas"></li>
-        <li class="metricas"></li>
-        <li class="metricas"></li>
-        <li class="metricas"></li>
-        <li class="metricas"></li>
-        <li class="metricas"></li>
+        <li>Carácteres</li>
+        <li>Carácteres sin espacios</li>
+        <li>Palabras</li>
+        <li>Números</li>
+        <li>Suma números</li>
+        <li>Promedio longitud</li>
       </ul>
-      </div>
     </main>
-  </div>
-    <script src="index.js" type="module"></script>
 
     <footer>
-      <p>2024 Jasmín Vidal</p>
+      <p>©2024 Jasmín Vidal</p>
     </footer>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
