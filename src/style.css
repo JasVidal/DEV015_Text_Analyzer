@@ -15,8 +15,6 @@ body {
     background-position: center;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
     align-content: center;
     font-family:'Poppins';
     font-weight: 300;
@@ -31,11 +29,7 @@ h1{
     color: #e7e7e7;
     font-size: 50px;
     font-weight: 700;
-}
-
-i {
-    color: #ffffff;
-    size: 50px;
+    text-align: center;
 }
 
 p {
@@ -47,6 +41,7 @@ p {
 }
 
 main {
+    width: 70%;
     margin: auto;
     padding: 50px 0 0;
     border-radius:7x solid #160c43a2;
@@ -54,22 +49,22 @@ main {
     box-shadow: 5px 5px 5px #000000c9;
     border-radius: 8px;
     text-align: center;
+    align-items: center;
 }
 
 /*Primer elemento*/
 
 div {
     width: 60%;
-    margin: 0 20px 20px 0;
+    margin: 0 10px 10px 0;
     text-align: center;
     display: inline-block;
 }
 
 textarea {
     max-width: 100%;
-    width: 800px;
+    width: 850px;
     height: 300px;
-    margin: auto;
     padding: 50px;
     box-sizing: border-box;
     background-color: #2e1e54c1;
@@ -80,7 +75,7 @@ textarea {
 }
 
 textarea::placeholder{
-    color: #c3c3c3;
+    color: #ffffff7d;
     font-size: 20px;
     font-weight: 800;
     font-family: 'Cutive Mono';
@@ -94,7 +89,7 @@ textarea:focus{
 #reset-button {
     margin: 30px 0px;
     padding: 15px 20px;
-    background-color: #23b32d;
+    background-color: #B2ABF2;
     border: 0;
     border-radius: 40px;
     font-family: 'Poppins';
@@ -106,8 +101,8 @@ textarea:focus{
 }
 
 #reset-button:hover {
-    background-color: #1a6c13;
-    color: #000000;
+    background-color: #6c66b1;
+    color: #ffffff;
     transform: scale(1.2);
 }
 
@@ -120,14 +115,15 @@ ul {
     display: inline-block;
     vertical-align: top;
     background-color: #ffffff90;
-    border-radius: solid #22183a;   
     border: 8px; 
     border-radius: 8px;
+    color: #2d2d2d;
+
 }
 
 li {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 20px 0px 20px;
     height: auto;
     border:none;
     box-sizing: border-box;
@@ -135,10 +131,10 @@ li {
     border-color: #82828289;
     border-radius: 8px;
     list-style-type: none;
-    line-height: 50px;
+    line-height: 63px;
     font-family: 'Poppins';
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     text-align: left;
 }
 
