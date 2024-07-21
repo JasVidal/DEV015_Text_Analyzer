@@ -6,31 +6,37 @@
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="./assets/2586899.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-      <h1> Analizador de texto<i class="fa-duotone fa-magnifying-glass" style="--fa-primary-color: #e6e6e6; --fa-secondary-color: #e6e6e6;"></i></h1>
+      <h1> Analizador de texto</h1>
   
       <p>¡Hola! Usa esta aplicación y descubre todos los detalles de tu texto como carácteres, palabras, números y más!</p>
     </header>
 
     <main>
-      <div>
-      <textarea name="user-input" placeholder="Aquí puedes pegar o ingresar el texto que deseas analizar..." rows="4" cols="60"></textarea>
+      <div class="container">
+        <div class="txtybtn">
+        <textarea name="user-input" placeholder="Aquí puedes pegar o ingresar el texto que deseas analizar..." rows="4" cols="60"></textarea>
 
-      <button id="reset-button">Analizar nuevo texto</button>
+        <button id="reset-button">Analizar nuevo texto</button>
+        </div>
+        <div class="lista">
+        <ul>
+          <li class="metrics" data-testid="character-count">Carácteres</li>
+          <li class="metrics" data-testid="character-no-spaces-count">Carácteres sin espacios</li>
+          <li class="metrics" data-testid="word-count">Palabras</li>
+          <li class="metrics" data-testid="number-count">Números</li>
+          <li class="metrics" data-testid="number-sum">Suma números</li>
+          <li class="metrics" data-testid="word-lenght-average">Promedio longitud</li>
+        </ul>
+        </div>
       </div>
-
-      <ul>
-        <li class="characters">Carácteres</li>
-        <li class="charactersExS">Carácteres sin espacios</li>
-        <li class="words">Palabras</li>
-        <li class="numbers">Números</li>
-        <li class="numbersSum">Suma números</li>
-        <li class="lenght">Promedio longitud</li>
-      </ul>
     </main>
 
     <footer>
