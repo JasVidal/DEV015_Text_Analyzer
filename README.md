@@ -46,7 +46,7 @@ Este proyecto es una aplicación web que sirve para analizar un texto en el nave
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=2.+ +Características+%E2%9C%85">
 <hr>
 
-<img src="https://img.freepik.com/vector-gratis/dibujar-mano-ilustracion-glosario_23-2150292649.jpg?t=st=1721796059~exp=1721799659~hmac=112c3e41fafbbba121ce2b258d3aee9462a6853181059f5feab3f92d6b5574e6&w=740" alt="purpleGif" width= 500 height = 500 align="right" />
+<img src="https://img.freepik.com/vector-gratis/dibujar-mano-ilustracion-glosario_23-2150292649.jpg?t=st=1721796059~exp=1721799659~hmac=112c3e41fafbbba121ce2b258d3aee9462a6853181059f5feab3f92d6b5574e6&w=740" alt="purpleGif" width= 500 height = 500 align="left" />
 
 El listado de funcionalidades es el siguiente:
 
@@ -74,7 +74,7 @@ El listado de funcionalidades es el siguiente:
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=3.+ +Modo+de+uso+%F0%9F%A4%93">
 <hr>
 
-<img src="https://img.freepik.com/vector-gratis/ilustracion-glosario-dibujado-mano_23-2150316938.jpg?t=st=1721797644~exp=1721801244~hmac=630663e6a47c4f4a788ff18adb46fd8c8662739a7ced6b72a0a8b03234798698&w=740" alt="purpleGif" width= 450 height = 450 align="left" />
+<img src="https://img.freepik.com/vector-gratis/ilustracion-glosario-dibujado-mano_23-2150316938.jpg?t=st=1721797644~exp=1721801244~hmac=630663e6a47c4f4a788ff18adb46fd8c8662739a7ced6b72a0a8b03234798698&w=740" alt="purpleGif" width= 450 height = 450 align="right" />
 
 ### Ingresar Texto:
 Escribe o pega tu texto en el área de texto proporcionado. Verás un placeholder que dice "Aquí puedes pegar o ingresar el texto que deseas analizar..." el cual desaparecerá automáticamente una vez empieces a escribir o copies y pegues y texto.
@@ -92,7 +92,7 @@ Si deseas borrar el texto ingresado y reiniciar los contadores, puedes hacer cli
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=4.+ +¿Qué+criterios+se+tuvieron+en+cuenta?+%F0%9F%93%8B">
 <hr>
 
-<img src="https://img.freepik.com/vector-gratis/estadisticas-portapapeles-lupa_24877-76475.jpg?t=st=1721809578~exp=1721813178~hmac=cfd8c06c43ff9506d2a970ff272b1403bb75cba91c1aa8d0e56a5488569852f7&w=360" alt="purpleGif" width= 470 height = 600 align="right" />
+<img src="https://img.freepik.com/vector-gratis/estadisticas-portapapeles-lupa_24877-76475.jpg?t=st=1721809578~exp=1721813178~hmac=cfd8c06c43ff9506d2a970ff272b1403bb75cba91c1aa8d0e56a5488569852f7&w=360" alt="purpleGif" width= 450 height = 580 align="left" />
 
 ### Interfaz Simple: 
 La interfaz de usuario se diseñó para ser intuitiva y fácil de usar, con contadores claros y un área de texto grande. La estructura HTML incluye un encabezado, una lista para mostrar las métricas, un área de texto para la entrada del usuario y un botón para restablecer las métricas. El código JavaScript genera toda la funcionalidad que permite calcular las métricas y actualizar los elementos HTML en consecuencia. Se divide en dos archivos .js, uno contiene las especificaciones de las funciones del analizador y el otro se encarga de la interacción con el DOM.
