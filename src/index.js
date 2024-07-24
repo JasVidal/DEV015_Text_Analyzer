@@ -1,7 +1,5 @@
 import analyzer from './analyzer.js';
 
-//TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
-
 /*Caja de texto  */
 
 const txtArea = document.getElementsByName('user-input')[0];
@@ -17,18 +15,14 @@ const average = document.querySelector('[data-testid=word-length-average]');
 
 txtArea.addEventListener('input', (ev) => {
   const textareaEl = ev.target
-  const text = textareaEl.value // 'Hola mundo'
-  // -> letter
+  const text = textareaEl.value 
 
   const lettersCount = analyzer.getCharacterCount(text)
   chars.innerHTML ="Carácteres: " +lettersCount 
-  // chars.innerText = analyzer.getCharacterCount(text)
 
   const wordsCount = analyzer.getWordCount(text)
   words.innerHTML = "Palabras: " + wordsCount
-  //words.innerText = analyzer.getWordCount(text)
 
-  // cambiar el nombre de variable
   const charsExSCount = analyzer.getCharacterCountExcludingSpaces(text)
   charsExS.innerHTML = "Carácteres sin espacios: " + charsExSCount 
 
@@ -36,7 +30,7 @@ txtArea.addEventListener('input', (ev) => {
   average.innerHTML = "Longitud promedio: " + averageCount.toString()
 
   const numbersCount = analyzer.getNumberCount(text)
-  numbers.innerHTML = "Números: " + numbersCount // "0"
+  numbers.innerHTML = "Números: " + numbersCount 
 
   const numbersSumCount = analyzer.getNumberSum(text)
   numbersSum.innerHTML = "Suma de números: " + numbersSumCount

@@ -3,9 +3,7 @@ const analyzer = {
   /*Función para obtener Contador de Palabras */
 
   getWordCount: (text) => {
-    //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-
-    /*"hola mundo".split(' ')->["hola","mundo"] cadena de texto(string) -> arreglo | replace/trim -> texto(string) - texto (string) */
+    
     return text.replace(/[\d.,?!¡¿;:]/g, '').trim().split(' ').length
   },
 
@@ -13,7 +11,6 @@ const analyzer = {
   /*Función para obtener Contador de Charácteres */
 
   getCharacterCount: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
 
     return text.length
   },
@@ -22,12 +19,6 @@ const analyzer = {
   /*Función para obtener Contador de Carácteres Exc. Espacios y Signos */
 
   getCharacterCountExcludingSpaces: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
-
-    /*for,if *//*arreglo con signos de punt *//*uso de semantica, identificadores descriptivos */
-
-
-    /*for - para recorrer texto / arreglo / conjunto de elementos*/
 
     let charsExS = 0;
     const symbols = "[ .,?!¡¿;:]"
@@ -38,22 +29,10 @@ const analyzer = {
     return charsExS
   },
 
-  /*let charsExS = 0;
-   for (const letter of text) {
-     if (letter !== " " && letter !== ".") {charsExS++}
-   }
-   return charsExS
-   //return text.replace(/[ .,?!¡¿;:]/g, "").length
- }, */
-
 
   /*Función para obtener Contador de Longitud de palabra */
 
   getAverageWordLength: (text) => {
-    //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-
-    /* transformar text a arreglo,recorrerlo, llegar por cada posicion sumar el largo.lenhgt por cada posicion, el largo total lo divido por el arreglo dividido anteriormente */
-
 
     const wordC = text.split(' ');
     let sum = 0;
@@ -65,8 +44,8 @@ const analyzer = {
 
     }
 
-    return sum / wordC.length
-    //Con la suma vas a sacar el promedio de la longitud de las palabra
+    const res = sum / wordC.length;
+    return parseFloat(res.toFixed(2))
 
   },
 
@@ -74,17 +53,27 @@ const analyzer = {
   /*Función para obtener Contador de Números */
 
   getNumberCount: (text) => {
-    //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
+
+    const lastChar = text[text.length-1] 
+    
+    if(lastChar === "."){
+      text = text.substring(0,text.length-1)
+    }
+
+
+    const wordsArr = text.split(" ");
 
     let numbC = 0;
 
-    for (const char of text) {
-
-      const num = parseInt(char)
-      if (num >= 0 && num <= 1000) {
+    for (const word of wordsArr) {
+      
+      const numero = Number(word); 
+      if (  !isNaN(numero) ) { 
         numbC++
       }
     }
+
+    console.log(numbC);
     return numbC;
   },
 
@@ -92,19 +81,25 @@ const analyzer = {
   /*Función para obtener Contador de Suma de Números */
 
   getNumberSum: (text) => {
-    //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+
+    const lastChar = text[text.length-1] 
+    if(lastChar === "."){
+      text = text.substring(0,text.length-1)
+    }
+
+    const wordsArr = text.split(" ");
 
     let sum = 0;
 
-    for (const char of text) {
+    for (const word of wordsArr) {
 
-      const numbers = parseInt(char)
-      if (numbers >= 0 && numbers <= 1000) {
-        sum = numbers + sum;
+      const numero = Number(word); 
+      if (  !isNaN(numero) ) { 
+        sum = sum + numero 
       }
     }
     return sum;
-  },
+  }
 
 };
 export default analyzer;
