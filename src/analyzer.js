@@ -60,7 +60,6 @@ const analyzer = {
       text = text.substring(0,text.length-1)
     }
 
-
     const wordsArr = text.split(" ");
 
     let numbC = 0;
@@ -73,7 +72,6 @@ const analyzer = {
       }
     }
 
-    console.log(numbC);
     return numbC;
   },
 
