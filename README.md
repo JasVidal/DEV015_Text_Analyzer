@@ -20,7 +20,7 @@
 <hr>
 
 <br><img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sfba3e16ddea226cf/image/i2cd916084c66ae91/version/1599763295/image.gif" alt="purpleGif" width= 450 height = 250 align="right" />
-<br>
+<br><br>
 
 * [1. Descripción del proyecto](#Descripción-del-proyecto)
 * [2. Características](#Características)
@@ -45,6 +45,8 @@ Este proyecto es una aplicación web que sirve para analizar un texto en el nave
 
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=2.+ +Características+%E2%9C%85">
 <hr>
+
+<img src="https://img.freepik.com/vector-gratis/dibujar-mano-ilustracion-glosario_23-2150292649.jpg?t=st=1721796059~exp=1721799659~hmac=112c3e41fafbbba121ce2b258d3aee9462a6853181059f5feab3f92d6b5574e6&w=740" alt="purpleGif" width= 500 height = 500 align="right" />
 
 El listado de funcionalidades es el siguiente:
 
@@ -90,14 +92,14 @@ Si deseas borrar el texto ingresado y reiniciar los contadores, puedes hacer cli
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=4.+ +¿Qué+criterios+se+tuvieron+en+cuenta?+%F0%9F%93%8B">
 <hr>
 
-<img src="https://img.freepik.com/vector-gratis/dibujar-mano-ilustracion-glosario_23-2150292649.jpg?t=st=1721796059~exp=1721799659~hmac=112c3e41fafbbba121ce2b258d3aee9462a6853181059f5feab3f92d6b5574e6&w=740" alt="purpleGif" width= 450 height = 450 align="right" />
+<img src="https://img.freepik.com/vector-gratis/estadisticas-portapapeles-lupa_24877-76475.jpg?t=st=1721809578~exp=1721813178~hmac=cfd8c06c43ff9506d2a970ff272b1403bb75cba91c1aa8d0e56a5488569852f7&w=360" alt="purpleGif" width= 470 height = 600 align="right" />
 
 ### Interfaz Simple: 
 La interfaz de usuario se diseñó para ser intuitiva y fácil de usar, con contadores claros y un área de texto grande. La estructura HTML incluye un encabezado, una lista para mostrar las métricas, un área de texto para la entrada del usuario y un botón para restablecer las métricas. El código JavaScript genera toda la funcionalidad que permite calcular las métricas y actualizar los elementos HTML en consecuencia. Se divide en dos archivos .js, uno contiene las especificaciones de las funciones del analizador y el otro se encarga de la interacción con el DOM.
 
 
 ### Estilo Minimalista:
-Se aplicó un estilo minimalista y limpio, con una paleta de colores sutiles para mejorar la legibilidad y la usabilidad. El archivo CSS da estilos a los elementos HTML para dar una experiencia visual más enriquesedora para el usuarion que motive al uso de la aplicacion y mejore el entendimiento de esta. 
+Se aplicó un estilo minimalista y limpio, con una paleta de colores sutiles para mejorar la legibilidad y la usabilidad. El archivo CSS da estilos a los elementos HTML para dar una experiencia visual más enriquesedora para el usuarion que motive al uso de la aplicación y mejore el entendimiento de esta. 
 
 
 ### Tipografía Legible:
