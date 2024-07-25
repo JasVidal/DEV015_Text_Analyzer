@@ -67,7 +67,7 @@ textarea[name="user-input"] {
     padding: 50px;
     box-sizing: border-box;
     background-color: #c8c8c8ee;
-    border: 4px solid #8989899d;
+    border: 4px solid #9f9f9fcc;
     border-radius: 10px;
     display: flex;
     text-align: center;
@@ -90,7 +90,7 @@ textarea[name="user-input"]:focus{
     margin: 0 auto;
     margin-top: 30px;
     padding: 15px 50px;
-    background-color: #9e97db;
+    background-color: #62c24d;
     border: 0;
     border-radius: 40px;
     font-family: 'Poppins';
@@ -102,7 +102,7 @@ textarea[name="user-input"]:focus{
 }
 
 #reset-button:hover {
-    background-color: #6c66b1;
+    background-color: #32a518;
     color: #ffffff;
     transform: scale(1.2);
 }

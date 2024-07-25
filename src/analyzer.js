@@ -20,13 +20,13 @@ const analyzer = {
 
   getCharacterCountExcludingSpaces: (text) => {
 
-    let charsExS = 0;
+    let charactersExcludingSpaces = 0;
     const symbols = "[ .,?!¡¿;:]"
 
     for (const letter of text) {
-      if (symbols.includes(letter) === false) { charsExS++ }
+      if (symbols.includes(letter) === false) { charactersExcludingSpaces++ }
     }
-    return charsExS
+    return charactersExcludingSpaces
   },
 
 
@@ -34,18 +34,18 @@ const analyzer = {
 
   getAverageWordLength: (text) => {
 
-    const wordC = text.split(' ');
-    let sum = 0;
+    const wordCount = text.split(' ');
+    let suma = 0;
 
 
-    for (let avrg = 0; avrg < wordC.length; avrg++) {
+    for (let average = 0; average < wordCount.length; average++) {
 
-      sum += wordC[avrg].length
+      suma += wordCount[average].length
 
     }
 
-    const res = sum / wordC.length;
-    return parseFloat(res.toFixed(2))
+    const resultado = suma / wordCount.length;
+    return parseFloat(resultado.toFixed(2))
 
   },
 
@@ -54,25 +54,25 @@ const analyzer = {
 
   getNumberCount: (text) => {
 
-    const lastChar = text[text.length-1] 
+    const lastCharacter = text[text.length-1] 
     
-    if(lastChar === "."){
+    if(lastCharacter === "."){
       text = text.substring(0,text.length-1)
     }
 
-    const wordsArr = text.split(" ");
+    const wordsArray = text.split(" ");
 
-    let numbC = 0;
+    let numberCount = 0;
 
-    for (const word of wordsArr) {
+    for (const word of wordsArray) {
       
       const numero = Number(word); 
       if (  !isNaN(numero) ) { 
-        numbC++
+        numberCount++
       }
     }
 
-    return numbC;
+    return numberCount;
   },
 
 
@@ -80,23 +80,23 @@ const analyzer = {
 
   getNumberSum: (text) => {
 
-    const lastChar = text[text.length-1] 
-    if(lastChar === "."){
+    const lastCharacter = text[text.length-1] 
+    if(lastCharacter === "."){
       text = text.substring(0,text.length-1)
     }
 
-    const wordsArr = text.split(" ");
+    const wordsArray = text.split(" ");
 
-    let sum = 0;
+    let suma = 0;
 
-    for (const word of wordsArr) {
+    for (const word of wordsArray) {
 
       const numero = Number(word); 
       if (  !isNaN(numero) ) { 
-        sum = sum + numero 
+        suma = suma + numero 
       }
     }
-    return sum;
+    return suma;
   }
 
 };
