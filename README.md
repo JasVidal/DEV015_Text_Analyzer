@@ -1,4 +1,4 @@
-<br><br>
+<br><br><br>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Cutive+Mono&weight=900&size=80&pause=1000&color=6BF722&center=true&multiline=true&width=1740&height=200&lines=%C2%A1Hola+a+todas!+%3AD;Bienvenidas+a+mi+Analizador+de+Texto+%F0%9F%94%8D)](https://git.io/typing-svg)
 
