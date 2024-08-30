@@ -1,4 +1,4 @@
-<br><br>
+<br><br><br>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Cutive+Mono&weight=900&size=80&pause=1000&color=6BF722&center=true&multiline=true&width=1740&height=200&lines=%C2%A1Hola+a+todas!+%3AD;Bienvenidas+a+mi+Analizador+de+Texto+%F0%9F%94%8D)](https://git.io/typing-svg)
 
@@ -46,6 +46,10 @@ Este proyecto es una aplicación web que sirve para analizar un texto en el nave
 
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=2.+ +Características+%E2%9C%85">
 <hr>
+<br>
+
+<img src="https://raw.githubusercontent.com/JasVidal/DEV015-text-analyzer/develop/src/assets/Text%20Analyzer%20final.jpg" width= 100% align="center" />
+<br><br>
 
 <img src="https://img.freepik.com/vector-gratis/dibujar-mano-ilustracion-glosario_23-2150292649.jpg?t=st=1721796059~exp=1721799659~hmac=112c3e41fafbbba121ce2b258d3aee9462a6853181059f5feab3f92d6b5574e6&w=740" alt="purpleGif" width= 500 height = 500 align="left" />
 =======
@@ -90,11 +94,13 @@ El listado de funcionalidades es el siguiente:
 
   - **Longitud media de las palabras**: Calcula la longitud media de las palabras en el texto de entrada mostrando así la longitud promedio total.
 
+
 <<<<<<< HEAD
 <br><br><br>
 
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=3.+ +Modo+de+uso+%F0%9F%A4%93">
 <hr>
+<br>
 
 =======
 
@@ -121,6 +127,7 @@ Si deseas borrar el texto ingresado y reiniciar los contadores, puedes hacer cli
 
 <img width="600" align="center" src="https://readme-typing-svg.demolab.com?font=Outfit&size=21&pause=1000&color=F7F7F7&background=FFFFFF00&multiline=true&random=false&width=435&lines=4.+ +¿Qué+criterios+se+tuvieron+en+cuenta?+%F0%9F%93%8B">
 <hr>
+<br>
 <<<<<<< HEAD
 =======
 <br>
@@ -140,10 +147,13 @@ Se aplicó un estilo minimalista y limpio, con una paleta de colores sutiles par
 Se escogió los diferentes tipos de fuente "Poppins" y "Cutive Mono" para proporcionar una experiencia de lectura agradable y legible.
 
 
+<br><br><br><br><br><br>
+
 <<<<<<< HEAD
 <br><br><br>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Cutive+Mono&weight=900&size=64&pause=1000&color=7100F7&center=true&multiline=true&width=1740&height=200&lines=%C2%A1Gracias+por+utilizar+el+Analizador+de+Texto!++%F0%9F%A5%B0)](https://git.io/typing-svg)
+
 =======
 <br><br><br><br><br><br>
 
