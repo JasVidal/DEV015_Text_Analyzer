@@ -117,6 +117,4 @@ Se escogió los diferentes tipos de fuente "Poppins" y "Cutive Mono" para propor
 
 <br><br><br><br><br><br>
 
-<br><br><br>
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Cutive+Mono&weight=900&size=64&pause=1000&color=7100F7&center=true&multiline=true&width=1740&height=200&lines=%C2%A1Gracias+por+utilizar+el+Analizador+de+Texto!++%F0%9F%A5%B0)](https://git.io/typing-svg)
